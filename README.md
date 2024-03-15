@@ -19,8 +19,8 @@ Requirements
 Installation
 
     Clone this repository to your local machine:
-
-git clone https://github.com/Coding-Journey-2004/Scholarship-Scraper-and-Description-Generator.git
+    
+    git clone https://github.com/Coding-Journey-2004/Scholarship-Scraper-and-Description-Generator.git
 
 Install the required Python libraries:
 
