@@ -20,29 +20,25 @@ Installation
 
     Clone this repository to your local machine:
 
-    bash
-
-git clone https://github.com/yourusername/scholarship-scraper.git
+git clone https://github.com/Coding-Journey-2004/Scholarship-Scraper-and-Description-Generator.git
 
 Install the required Python libraries:
 
     pip install -r requirements.txt
 
-    Download and install the GeckoDriver for Firefox. Make sure to add it to your system PATH.
-
 Usage
 
     Step One/Code One:
-        Run the script step_one.py.
+        Run the script Fastweb_Scraper/Chrome.py
         Enter your Fastweb username and password when prompted.
         Wait for the script to scrape scholarship data. The data will be saved to scholarship_links.csv.
 
     Step Two/Code Two:
-        Run the script step_two.py.
+        Run the script data_cleanup.py
         This script will clean the data in scholarship_links.csv and save the cleaned data to scholarship_links_cleaned.csv.
 
     Step Three/Code Three:
-        Run the script step_three.py.
+        Run the script automated_description_docx.py
         This script will generate scholarship descriptions by visiting each URL in scholarship_links_cleaned.csv and save the descriptions to a Word document named scholarship_descriptions.docx.
 
 Notes
