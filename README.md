@@ -29,7 +29,7 @@ Install the required Python libraries:
 Usage
 
     Step One/Code One:
-        Run the script Fastweb_Scraper/Chrome.py
+        Run the script Fastweb_ScraperFirefox/Chrome.py
         Enter your Fastweb username and password when prompted.
         Wait for the script to scrape scholarship data. The data will be saved to scholarship_links.csv.
 
